@@ -30,11 +30,13 @@ Waterfall methodology - Linear and sequential, each phase is completed before mo
  changes are hard to incorporate once a phase is complete.
 - Customer feedback comes late, after the product is developed.
 - Testing is done at the end of the development process.
+
 Example scenario: waterfall is suitable for projects with well-defined and stable requirements, such as building a bridge or physical product where changes are costly and tim-consuming
 Agile methodology - Iterative and incremental, with multiple cycles (sprints). 
 - High flexibility, adapts to changing requirements. 
 - Regular customer feedback is incorporated into every sprint. 
 - Testing is continuous and done after each iteration.
+
 Example scenario: agile is appropriate for software development with evolving or unclear requirements, where rapid adaptation to changes and continuous feedback are essential, such as developing a new mobile app or web-based service
 
 
