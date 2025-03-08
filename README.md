@@ -41,21 +41,68 @@ Example scenario: agile is appropriate for software development with evolving or
 
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+Software Developer: 
+- writing the code and developing the entire software product
+- sending updates to the project manager
+- working closely with the other team members
 
+Quality Assurance Engineer:
+- creates development standards and procedures for the programmers to follow
+- confirm that the software meets the requirements before deployment
+- analyse the product to identify bugs and suggest changes
+
+Project Manager
+- assemble and lead the software development team
+- set the budget and ensure the project adheres to it as closely as possible
+- deliver the completed software to the client and regularly check its performance
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+IDEs: EG; Visual studio, Eclipse
+- Intelligent code completion: an IDE can make suggestions to complete a code statement when the developer begins typing.
+- Code editing automation: Programming languages have rules for how statements must be structured. Because an IDE knows these rules, it contains many intelligent features for automatically writing or editing the source code.
+- Testing: The IDE allows developers to automate unit tests locally before the software is integrated with other developers' code and more complex integration tests are run.
+- Syntax highlighting: An IDE can format the written text by automatically making some words bold or italic, or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
+- Compilation: An IDE compiles or converts the code into a simplified language that the operating system can understand. Some programming languages implement just-in-time compiling, in which the IDE converts human-readable code into machine code from within the application
 
+VCS Eg; Git
+- Collaboration: Enables multiple developers to work on the same codebase without conflicts.
+- Change Tracking: Records detailed history of changes, allowing easy analysis of each modification. 
+- Branching and Merging: Supports creating branches for new features and merging them back into the main code.
+- Error Recovery: Allows reverting to previous versions if new changes introduce errors
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+a) Changing Software Requirements - Software requirements are often dynamic and subject to frequent changes, making it challenging for engineers to design and develop solutions that meet users' needs while accounting for future updates and bug fixes. 
+
+Solution: engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
+b) Software Accessibility and Usability - Overly complex software can frustrate or confuse users.
+
+Solution: Use scalable architecture, Emphasize reliability.
+c) Limited Infrastructure - limited high-performance software engineering tools and computing platforms and inefficient data storage architectures. 
+
+ Solution: Software engineers must rely heavily on a robust infrastructure to perform their jobs effectively.
+d) Rapid technological advancement places considerable pressure on software engineers to stay current.
+
+Solution: adopting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry.
 
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+a) Unit tests - are close to the source of an application, They consist in testing individual methods and functions of the classes, components, or modules used by your software. 
+Ensures that each unit performs its intended function correctly, isolated from other components.
+b) Integration tests - verify that different modules or services used by your application work well together.
+ - help to ensure data flows smoothly between modules and interfaces work as expected.
+c) System testing -Focus on the entire software system as a whole, including all functionalities and interactions.
+ -It help to verify that the system meets all functional and non-functional requirements, including performance, usability, and security .
+d) Acceptance tests - are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
 
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
-
+Prompt engineering  is the process where you guide generative AI solutions to generate desired outputs.
+Importance:
+- Improved user experience : Prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models’ training data.
+- Increased flexibility : A prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
+- Developer control : Prompt engineering gives developers more control over users' interactions with the AI. Effective prompts provide intent and establish context to the large language models. Provide an example of a vague prompt and then improve it by making it clear, specific, and concise.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
